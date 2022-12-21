@@ -26,9 +26,11 @@ public class Login_StepDefs {
     }
     @Then("{string} title should be displayed")
     public void page_should_be_displayed(String expectedTitle) {
+        System.out.println(expectedTitle);
+
 
         String actualTitle = Driver.get().getTitle();
-
+        System.out.println("actualTitle = " + actualTitle);
         Assert.assertEquals(expectedTitle,actualTitle);
 
     }

@@ -38,8 +38,22 @@ Account drop down should have the following options: Savings, Checking, Loan, Cr
 Date, Description, Deposit, Withdrawal.
 
 Pay Bills:
-Account Activity page should have the title Zero – Pay Bills. When user completes a successful Pay operation, The payment was successfully submitted.
-should be displayed. When user tries to make a payment without entering the amount or date, Please fill out this field message!
-should be displayed. Amount field should not accept alphabetical or special characters. Date field should not accept alphabetical characters.
+Account Activity page should have the title Zero – Pay Bills. When user completes a successful Pay operation,
+The payment was successfully submitted.should be displayed.
+When user tries to make a payment without entering the amount or date,
+Please fill out this field message! should be displayed.
+
+Amount field should not accept alphabetical or special characters.
+Date field should not accept alphabetical characters.
 
 NOTE: . For the date input field you can just use sendKeys. No need to click on the date navigator.
+
+Test Data:
+browser=chrome
+url=http://zero.webappsecurity.com/
+userName=username
+passWord=password
+
+
+NOTE: After entering the URL, entering user credentials and clicking the Signin button, you should again go to the url
+http://zero.webappsecurity.com/bank/accountsummary.html

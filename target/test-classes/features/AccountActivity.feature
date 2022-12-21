@@ -1,6 +1,5 @@
 Feature: Account Activity
 
-  @wip
   Scenario: User should be able to see the account activities
 
     Given User should be on the login page
